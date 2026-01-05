@@ -24,7 +24,7 @@ In this project i have created **Route tables** , **Security groups** and **Netw
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/25773bf8b59ee8519d3c45d4bab9824c59d7c725/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/Security%20ib.png)
 
 ## *SECURITY GROUP OUTBOUND* ##
-![image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0295d64770740084721da19210c8d56c25460218/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/Security%20ob.png)
 
 ## Key learnings ##
 - Learned about route tables and how they are used to distribute or send the data to its desitination
