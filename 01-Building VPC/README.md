@@ -12,3 +12,10 @@
 2. Created a subnet by selecting a availability zone and assigned CIDR as 10.0.0.0/24 . Also enabled auto assign IP.
 3. Finally created a internet gate way and atached to the subnet.
 
+## Screenshots ##
+## *VPC* ##
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0d0ab26f3f67cbfb69a309be333cb525a4a72fbb/01-Building%20VPCScreenshot/VPC.png)
+
+## *SUBNET* ##
+![image alt]()
