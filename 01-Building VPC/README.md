@@ -18,4 +18,4 @@
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0d0ab26f3f67cbfb69a309be333cb525a4a72fbb/01-Building%20VPCScreenshot/VPC.png)
 
 ## *SUBNET* ##
-![image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/81e7c8fb7ab0285a462ddc77738e86c9cb0f1432/01-Building%20VPCScreenshot/SUBNET.png)
