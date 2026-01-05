@@ -20,7 +20,10 @@ In this project i have created **Route tables** , **Security groups** and **Netw
 ## *ROUTE TABLES* ##
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/ea181b33c01b507a6044b3dc38042764f943ee03/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/Route%20table.png)
 
-## *SECURITY GROUP* ##
+## *SECURITY GROUP INBOUND* ##
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/25773bf8b59ee8519d3c45d4bab9824c59d7c725/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/Security%20ib.png)
+
+## *SECURITY GROUP OUTBOUND* ##
 ![image alt]()
 
 ## Key learnings ##
