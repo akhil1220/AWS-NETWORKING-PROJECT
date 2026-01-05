@@ -33,5 +33,5 @@ In this project i have created **Route tables** , **Security groups** and **Netw
 - Learned about Network ACL And rules.
 
 ## Next steps ##
-In the next project i will extend this seup and build Private subnet.
+In the next project i will extend this setup and build Private subnet.
 
