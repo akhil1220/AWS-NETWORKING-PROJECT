@@ -17,6 +17,12 @@ In this project i have created **Route tables** , **Security groups** and **Netw
 ## *NACL OUTBOUND* ##
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0599e6fe57d8b96e7c094879e9e65ede0967e79c/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/NACL%20OB.png)
 
+## *ROUTE TABLES* ##
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/ea181b33c01b507a6044b3dc38042764f943ee03/02%20VPC%20TRAFFIC%20FLOW%20AND%20SECURITY/Screenshots/Route%20table.png)
+
+## *SECURITY GROUP* ##
+![image alt]()
+
 ## Key learnings ##
 - Learned about route tables and how they are used to distribute or send the data to its desitination
 - Acheived an idea on security groups and learned how to update inbound rules.
