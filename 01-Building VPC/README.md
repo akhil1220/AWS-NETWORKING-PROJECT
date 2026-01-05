@@ -19,3 +19,7 @@
 
 ## *SUBNET* ##
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/81e7c8fb7ab0285a462ddc77738e86c9cb0f1432/01-Building%20VPCScreenshot/SUBNET.png)
+
+
+## *Internet Gateway* ##
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/592d1c4cea9c8b80456e5af7ec1a12d0ee1d0a57/01-Building%20VPCScreenshot/IGW.png)
