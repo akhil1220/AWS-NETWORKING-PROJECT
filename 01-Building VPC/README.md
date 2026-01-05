@@ -1,7 +1,7 @@
 # Part 1 - Building  A Virtual Private CLoud 
 ## Creating a Custom VPC to understand how networking works in cloud ##
 # ARCHITECTURE DIAGRAM #
-
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/2236a41903d1b5973e37a1e24e76f4cc59cc975e/01-Building%20VPC/01-Building%20VPC%20Architecture/ARCHITECTURE%201.drawio.png)
 ## AWS Services used ## 
 1. AWS VPC
 2. Subnet
