@@ -1,4 +1,7 @@
 ## Creating a pirvate subnet and launching VPC resources ##
+## Overview ##
+In this project i have created a private subnet and also launched resoures in both private and public subnet.
+
 ## Architecture ##
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/429c108e3f715e916b784f35130bb1a75cc339c8/3%20-%20Private%20subnet%20and%20resource%20launching/Architecture/3%20And%204%20architecture.drawio.png)
 
