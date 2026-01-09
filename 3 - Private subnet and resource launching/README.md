@@ -1,4 +1,4 @@
-## Creating a pirvate subnet and launching VPC resources ##
+## Creating a Private subnet and Launching VPC resources ##
 ## Overview ##
 In this project i have created a private subnet and also launched resoures in both private and public subnet.
 
