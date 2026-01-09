@@ -37,4 +37,4 @@ In this project i have created a private subnet and also launched resoures in bo
 ![image alt]()
 
 ## *Private NACL* ##
-![image alt]( )
+![image alt]( https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/58e53010b43ee16333c652bfc619317e220ee081/3%20-%20Private%20subnet%20and%20resource%20launching/Screenshots/Private%20nacl.png)
