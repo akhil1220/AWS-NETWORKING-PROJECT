@@ -18,8 +18,8 @@ In this project i have created a private subnet and also launched resoures in bo
 ## Launching VPC Resources ##
 1. Now to launch *PUBLIC* EC2 instance i selected launch instance then selected AMI and instance type.
 2. For Key pair i used keypair type as RSA and private key pair format as .pem .Hence keypair is created.
-3. Now atnetwork settings tab selected my current VPC, Public subnet and used the Secuirty group i created before.
-4. The instacne is launched.
+3. Now at network settings tab selected my current VPC, Public subnet and used the Secuirty group i created before.
+4. The instance is launched.
 5. For *PRIVATE* EC2 instance same process is repeated like AMI, instace type keypair.
 6. For security group i dont have any security grup for private subnet so i created here for creating the scurity group the type remains SSH and i used source type as custom and for source i selected my public security group source.
 7. Click launch instance hence the instance is launched.
