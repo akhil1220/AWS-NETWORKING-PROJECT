@@ -43,4 +43,4 @@ In this project i have created a private subnet and also launched resoures in bo
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/e88fabf7975b4b84410b76f9cba28f5f34295055/3%20-%20Private%20subnet%20and%20resource%20launching/Screenshots/Private%20EC2%20instance.png)
 
 ## *Public EC2 Instance*
-![image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/2d9a6f21c66aecab1355deafe7a8826c25804701/3%20-%20Private%20subnet%20and%20resource%20launching/Screenshots/Public%20EC2%20instance.png)
