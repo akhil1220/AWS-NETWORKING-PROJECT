@@ -29,3 +29,12 @@ In this project i have created a private subnet and also launched resoures in bo
 2. Key pair is used to help engineers to get direct access to the virtual machines. and RSA ia a type of cryptographic algorithm used.
 
 ## Screenshots ##
+
+## *Private subnet* ##
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/c1ff9907017978cdf83045428389d165bbf51d52/3%20-%20Private%20subnet%20and%20resource%20launching/Screenshots/Private%20nacl.png)
+
+## *Private route table* ##
+![image alt]()
+
+## *Private NACL* ##
+![image alt]( )
