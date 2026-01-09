@@ -13,6 +13,7 @@ In this project i have created a private subnet and also launched resoures in bo
 3 Added route table and attached to my private subnet.
 4. Finally to round off i have set up a **Network ACL** and did not add any inbound and out bound rules for now. Then attached This Network ACL to private subnet.
 5.  There is no need to create security groups until there is a specific resource.
+6.  I did not add internet gateway because i dont need traffic from the internet as it is a Private subnet.
 
 ## Launching VPC Resources ##
 1. Now to launch *PUBLIC* EC2 instance i selected launch instance then selected AMI and instance type.
