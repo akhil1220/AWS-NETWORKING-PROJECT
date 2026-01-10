@@ -87,7 +87,7 @@ After making these changes i re ran the ping now i received ICMP replies.
  ## *Outcome* :
 Confirmed successful and secure communication between public and private EC2 instances across subnets.
 
-![image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/1b2ca6d0b499fbd73cd43891efcf20ecc531a18d/4%20Testing%20VPC%20Connectivity/screenshots/Replies.png)
 
 
 
