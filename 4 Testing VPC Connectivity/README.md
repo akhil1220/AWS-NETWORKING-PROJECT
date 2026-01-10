@@ -9,6 +9,10 @@
 
  This Project follows real world cloud engineering practices including security hardnening processes by adding Network ACL's Security groups etc. And troubleshooting methodologies.
 
+ ## Architecture ##
+
+ ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/046fd130ff2de3332fb6fd76822408fd12a97f5e/4%20Testing%20VPC%20Connectivity/architecture/part%204.drawio.png)
+
 ## Implementation ##
 ## Step 1: Connecting to the Public EC2 instance 
 
