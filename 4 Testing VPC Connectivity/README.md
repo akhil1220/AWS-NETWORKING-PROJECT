@@ -1,17 +1,21 @@
 ## Testing VPC Connectivity ##
 
  ## Overview ##
-Tested VPC connectivity by accessing the public EC2 instance from AWS Console , verifying communication between instances and confirming internet access.
+ This project demonstrates how to design, validate, and troubleshoot VPC connectivity in AWS by enabling secure communication:
+ 
+ a)Between public and private EC2 instances
+ 
+ b)Between a public EC2 instance and the public internet
 
-## Architecture ##
+ This Project follows real world cloud engineering practices including security hardnening processes by adding Network ACL's Security groups etc. And troubleshooting methodologies.
 
+## Implementation ##
+## Step 1: Connecting to the Public EC2 instance 
 
-## Procedure ##
-STEP 1: Connect to public EC2 instance 
-1.Open the EC2 Console.
-2.Select Instances from the left navigation.
-3.Select NextWork Public Server.
-4.Click Connect and keep all default settings.
-5.Choose EC2 Instance Connect and click Connect.
- Initial Issue: Connection failed.
+Used EC2 Instance Connect to establish SSH access directly from the AWS Console.
+
+The intial result: Failed
+Screenshot:
+
+## Step 2: Diagnose and fix SSH Connectivity issue 
 
