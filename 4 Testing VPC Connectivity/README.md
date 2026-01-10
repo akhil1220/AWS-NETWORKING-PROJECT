@@ -102,6 +102,7 @@ Executed HTTP Request from the public EC2 instance using  *curl example.com*
 
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/233d972e6d22b2f5fc6c909b4529737bc9fcbc54/4%20Testing%20VPC%20Connectivity/screenshots/Curl.png)
 
+## Project outcome ##
 
 
 
