@@ -37,7 +37,7 @@ Hence the connection was established successfully.
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/269cb049e073b42a2a42951c2ef44756d5c32d62/4%20Testing%20VPC%20Connectivity/screenshots/establshed%20Connection%20.png)
 
 
-## Step 3 Testing connectivity between public and private EC2 instances 
+## Step 3: Testing connectivity between public and private EC2 instances 
 
 With access to the public server established, I tested internal VPC communication.
 
@@ -52,7 +52,45 @@ Interpretation:
 
 The lack of responses indicated that ICMP traffic was being blocked, even though routing between subnets was correct.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/af3e28825bb0cd1c4738ca12d340a698438f96ea/4%20Testing%20VPC%20Connectivity/screenshots/No%20ping%20response.png)
+
+## Step 4: Identify Network ACL Restrictions on the Private Subnet 
+
+I have evaluated Subnet level rules for private instance. Heres what i have identified 
+
+a) Route table is correctly routed traffic within the VPC
+
+b) In network ACL identified that all inbound and outbound traffic was denied.
+
+This prevented the ICMP packets from reaching the private instance.
+
+## Step 5: Allow ICMP Traffic at the Network ACL Level
+
+So to allow the traffic i have updated the Private subnets network ACL to allow
+
+a) Inbound ICMP (IPv4) from the public subnet CIDR
+
+b) Outbound ICMP (IPv4) back to the public subnet
+
+This modification allowed the ICMP Packets to pass at subnet level.
+
+## Step 6: Allow ICMP Traffic at security group level
+
+Security groups acts as instance level firewalls so  ICMP traffic should be permitted at security groups too.
+
+To make this changes i have updated the security group to allow 
+
+Inbound ICMP (IPv4) from the public instance’s security group
+
+After making these changes i re ran the ping now i received ICMP replies.
+
+ ## *Outcome* :
+Confirmed successful and secure communication between public and private EC2 instances across subnets.
+
 ![image alt]()
+
+
+
 
 
 
