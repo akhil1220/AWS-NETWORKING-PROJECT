@@ -35,3 +35,57 @@ Added the inbound SSH (Port 22) rule for public subnet's security group.
 
 Hence the connection was established successfully.
 
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/269cb049e073b42a2a42951c2ef44756d5c32d62/4%20Testing%20VPC%20Connectivity/screenshots/establshed%20Connection%20.png)
+
+
+## Step 3 Testing connectivity between public and private EC2 instances 
+
+With access to the public server established, I tested internal VPC communication.
+
+Retrieved the private IPv4 address of the private EC2 instance.
+
+Initiated connectivity testing using:
+ping <private ip>
+
+Result: No ping responses received.
+
+Interpretation:
+
+The lack of responses indicated that ICMP traffic was being blocked, even though routing between subnets was correct.
+
+![image alt]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
