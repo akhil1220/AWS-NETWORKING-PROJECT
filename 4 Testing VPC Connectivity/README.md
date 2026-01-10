@@ -1,5 +1,9 @@
 ## Testing VPC Connectivity ##
 
  ## Overview ##
- In this Project i connected to my public server and testing conectivity between EC2 instances and testing VPC connectivity with internet.
- 
+Tested VPC connectivity by accessing the public EC2 instance from AWS Console , verifying communication between instances and confirming internet access.
+
+## Architecture ##
+
+
+## Steps followed ##
