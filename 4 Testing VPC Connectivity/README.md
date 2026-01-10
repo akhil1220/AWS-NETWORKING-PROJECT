@@ -104,9 +104,15 @@ Executed HTTP Request from the public EC2 instance using  *curl example.com*
 
 ## Project outcome ##
 
+This project successfully demonstrates the ability to:
 
+Design secure VPC architectures
 
+Diagnose multi-layer networking issues
 
+Apply AWS security best practices
+
+Validate both internal and external connectivity
 
 
 
