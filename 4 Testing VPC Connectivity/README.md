@@ -16,8 +16,6 @@ Used EC2 Instance Connect to establish SSH access directly from the AWS Console.
 
 The intial result: Failed
 
-![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/36530982fb8298fb9813d87f581d813e78456534/4%20Testing%20VPC%20Connectivity/screenshots/intial%20connection.png)
-
 ## Step 2: Diagnose and fix SSH Connectivity issue 
 
 To identify the root cause of the failed connection i validated all the networking layers which are related to inbound connectivity.
