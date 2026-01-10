@@ -20,3 +20,18 @@ The intial result: Failed
 
 ## Step 2: Diagnose and fix SSH Connectivity issue 
 
+To identify the root cause of the failed connection i validated all the networking layers which are related to inbound connectivity.
+
+a) Route Table: Confirmed the public subnet had a default route (0.0.0.0/0) to the Internet Gateway.
+
+b) Network ACLs: Verified inbound and outbound traffic were allowed.
+
+c) Security Groups: Discovered that inbound rules only allowed HTTP traffic.
+
+As the security group allows only HTTP traffic the ssh connection was failed but we need ssh also to be allowed in order to establish the connection.
+
+# Resolution #
+Added the inbound SSH (Port 22) rule for public subnet's security group. 
+
+Hence the connection was established successfully.
+
