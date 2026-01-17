@@ -43,10 +43,16 @@ Also the ssh was not allowed in the security group.
 
 ## Resolution 
 
-In the first instance auto assign public ip was disabled so that is why the error showed up. To fix this i allocated  Elastic IP to instance 1.
+In the first instance auto assign public ip was disabled so that is why the error showed up.
+
+To fix this i allocated  Elastic IP to instance 1.
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/f00a01a1e163bc55c0aada77b11fa4a5b3bfbe11/5%20VPC%20Peering/screenshots/elastic%20ip.png)
 
 Then to fix the security group i have added a new rule to the First VPCs subnets security group which allows ssh.
 
 Now the issue was resolved and the connection was successfull.
+
+1[image alt]()
 
 
