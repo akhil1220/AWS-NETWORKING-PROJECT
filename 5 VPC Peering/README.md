@@ -39,6 +39,14 @@ Deployed one EC2 instance per VPC usng amazon linux 2023 AMI and t2.micro instan
 
 when i tried to connect the first instance it showed an error stating "No public IPV4 address assigned"
 
-## Troubl
+Also the ssh was not allowed in the security group.
+
+## Resolution 
+
+In the first instance auto assign public ip was disabled so that is why the error showed up. To fix this i allocated  Elastic IP to instance 1.
+
+Then to fix the security group i have added a new rule to the First VPCs subnets security group which allows ssh.
+
+Now the issue was resolved and the connection was successfull.
 
 
