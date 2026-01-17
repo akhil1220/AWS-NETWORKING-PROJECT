@@ -7,6 +7,7 @@ Launched EC2 instances in each VPC and validated the connectivity while troubles
 
 ## Architecture 
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/ccc22d9a87cb6e0757e59fb70727b3b39b6d563f/5%20VPC%20Peering/Architecture/Peering%20architecture.drawio.png)
 
 ## Implementation 
 
@@ -56,6 +57,39 @@ Now the issue was resolved and the connection was successfull.
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/8b060aaf1edd24681c394eb390b18a3ba27d12a4/5%20VPC%20Peering/screenshots/connection%201.png)
 
 
-## 5. 
+## 5. Tested VPC Peering using Ping (ICMP)
+
+ To test the peering i used the IP address of the second instance and run command ping in first EC2 instance. the output was only one way.
+
+ So to fix this i have gone through the security groups and found that ICMP traffic was not allowed in second VPC so added a new rule which allows ICMP traffic.
+
+ The connection was successfull.
+
+ ![image alt]( )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
