@@ -28,6 +28,17 @@ This enables traffic to flow directly between VPC's without using the public int
 
 After establishing Peering, route tables in both VPC's Were manually updated to direct traffic destined for peer VPC's CIDR block through peering connection.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/22c3876a64349d8681c0c2816e947a05d8d283a0/5%20VPC%20Peering/screenshots/VPC%20Peering%20.png)
 
+Hence The peering connection is established successfully.
+
+
+## 4. Launched EC2 instances in each VPC
+
+Deployed one EC2 instance per VPC usng amazon linux 2023 AMI and t2.micro instance type.
+
+when i tried to connect the first instance it showed an error stating "No public IPV4 address assigned"
+
+## Troubl
 
 
