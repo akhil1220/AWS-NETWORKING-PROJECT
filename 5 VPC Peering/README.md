@@ -53,6 +53,6 @@ Then to fix the security group i have added a new rule to the First VPCs subnets
 
 Now the issue was resolved and the connection was successfull.
 
-1[image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/8b060aaf1edd24681c394eb390b18a3ba27d12a4/5%20VPC%20Peering/screenshots/connection%201.png)
 
 
