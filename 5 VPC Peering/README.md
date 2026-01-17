@@ -65,10 +65,15 @@ Now the issue was resolved and the connection was successfull.
 
  The connection was successfull.
 
- ![image alt]( )
+ ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/13bfaa9007962813e0954e98f1e30a7350bc7453/5%20VPC%20Peering/screenshots/Peering%20successfull.png)
 
 
 
+## Key learings 
+
+1. VPC Peering does not automatically enable connectivit, route tables and security groups must be explicitly configured on both sides to allow traffic flow.
+
+2.  Troubleshooting AWS networking requires  a layered approach, Systematically validating peering status, route tables, network ACLS's, security groups to identify and resolve issues efficiently.
 
 
 
