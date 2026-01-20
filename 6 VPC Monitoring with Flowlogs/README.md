@@ -92,6 +92,12 @@ The below are the log events recorded.
 
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/bd62962d1222056c6fdf8c62a47dbd86128bd5eb/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/log%20events%20.png)
 
+so when i expanded the last log i got this 
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0db81ff70983333f3e24d834c85be897ce655f7b/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/expansion%20.png)
+
+To break it down 
+This flow log shows that 40 bytes of data were sent successfully from the IP address 185.114.175.11 to 10.1.13.142 on port 918 with 1 data packet transferred and the traffic was not allowed. (REJECT OK)
 
 
 
