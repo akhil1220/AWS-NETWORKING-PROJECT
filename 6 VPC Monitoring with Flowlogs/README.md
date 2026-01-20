@@ -84,6 +84,8 @@ Once it was done then the ping connectivity was successfull
 ![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/6e1e0ae3553b66e4aa1f09e4150a00f6d7fe799d/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/successful%20connection.png)
 
 
+## Step 6: Analyzing network traffic with cloudwatch Logs insights
+
 
 
 
