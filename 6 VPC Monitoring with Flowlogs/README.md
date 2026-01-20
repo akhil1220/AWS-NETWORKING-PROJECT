@@ -46,7 +46,20 @@ c) Describe log groups
 
 To create a policy i started with create policy and then chose json and deleted  everything in the policy editor.
 
-Now i added the below json policy to the policy editor 
+Now i added the below json policy to the policy editor and created IAM Policy.
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/46f047e212df4a65cfb50dcf2280caebf27725b4/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/IAM%20Policy.png)
+
+2. Created an IAM Role with a custom trust policy allowing only "Service": " vpc-flow-logs.amazonaws.com "
+
+the statement "Service": " vpc-flow-logs.amazonaws.com " means the trust policy specifically points to VPC flow logs as the only service that can use this role.
+
+Hence the IAM role set up is done.
+
+And now i finished creating the flow log By assigning the IAM role.
+
+
+
 
 
 
