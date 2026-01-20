@@ -58,6 +58,30 @@ Hence the IAM role set up is done.
 
 And now i finished creating the flow log By assigning the IAM role.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/dcc1a2eb7b986c9c10f00c0a6eb77bf721e29136/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/Flow%20log%20.png)
+
+
+## Step 5: Debugging private IP connectivity failure (Testing vpc peering)
+
+To test the connectivity of the first EC2 instance i tried connecting and the connection waas successfull. But when i used ping test to check the connectivity of second 
+EC2 instance the ping to public IP address succeeded but the ping to private IP was failed.
+
+![image alt]()
+
+## *Root cause analysis*
+
+Security groups and network ACLS's were correctly configured which ruled out  filtering issues.
+
+The real issue was missing routing between VPC's i.e., there was no direct path for private IP traffic 
+
+## *Resolution* 
+
+1. Created a VPC peering connection.
+2. Updated both VPC route tables to route traffic to peer CIDR Blocks.
+
+![image alt]()
+
+
 
 
 
