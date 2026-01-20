@@ -30,13 +30,51 @@ Under service role there is no IAM role designed for flow logs.
 
 So while configuring  a flowlog i have encountered a permission issue i.e., VPC flow logs could not write to cloud watch because there was no IAM Role existed. 
 
-The problem identified was flow logs required explicit permissions to 
+## *Problem* ##
+
+identified was flow logs required explicit permissions to 
 
 a) create log streams
 
 b) write log events 
 
 c) Describe log groups 
+
+## *Solution* ##
+
+1. I created A custom IAM Policy granting Cloudwatch logs permissions:
+
+To create a policy i started with create policy and then chose json and deleted  everything in the policy editor.
+
+Now i added the below json policy to the policy editor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
