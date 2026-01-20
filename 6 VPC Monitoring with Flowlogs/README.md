@@ -86,6 +86,11 @@ Once it was done then the ping connectivity was successfull
 
 ## Step 6: Analyzing network traffic with cloudwatch Logs insights
 
+First i reviewed the flow logs recorded about vpc 1's public subnet.
+
+The below are the log events recorded.
+
+![image alt]()
 
 
 
