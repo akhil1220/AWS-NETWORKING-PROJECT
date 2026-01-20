@@ -90,7 +90,8 @@ First i reviewed the flow logs recorded about vpc 1's public subnet.
 
 The below are the log events recorded.
 
-![image alt]()
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/bd62962d1222056c6fdf8c62a47dbd86128bd5eb/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/log%20events%20.png)
+
 
 
 
