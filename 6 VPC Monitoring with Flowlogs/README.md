@@ -99,6 +99,25 @@ so when i expanded the last log i got this
 To break it down 
 This flow log shows that 40 bytes of data were sent successfully from the IP address 185.114.175.11 to 10.1.13.142 on port 918 with 1 data packet transferred and the traffic was not allowed. (REJECT OK)
 
+Next i analyzed the captured data with cloudwatch Logs insights, for that
+
+i ran the query " Top 10 byte transfers by source and destination IP addresses "
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/0db81ff70983333f3e24d834c85be897ce655f7b/6%20VPC%20Monitoring%20with%20Flowlogs/screenshots/log%20insights.png)
+
+Insights gained were 
+
+1. Identified the most active traffic flows.
+2. Observed accepted vs rejected traffic.
+3. Mapped IP addressess back to EC2 instances and EC2 instance connect.
+
+So this cofirmed that monitoring was working correctly and traffic patterns are aligned with expected network behaviour.
+
+## Key learnings
+
+1. Gained hands on experience on how to use VPC Flowlogs and Amazon Cloudwatch to monitor, capture and analyze network traffic.
+2. Developed the ability to debug connectivity issues by distinguishing between routing problems and security group or NACL Misconfiguration.
+3. Applied IAM least privilege principles by  by creating custom policies and service specific roles for secure logging.
 
 
 
