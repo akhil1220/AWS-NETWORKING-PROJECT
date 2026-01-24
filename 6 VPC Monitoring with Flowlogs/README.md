@@ -4,6 +4,7 @@ This project demonstrates how to monitor and analyze AWS Network traffic using A
 
 ## Architecture 
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/38699f6ca98cf0c0156c620d90a506e63b584d13/6%20VPC%20Monitoring%20with%20Flowlogs/Architecture/6%20architecture.drawio.png)
 
 ## Implementation
 
