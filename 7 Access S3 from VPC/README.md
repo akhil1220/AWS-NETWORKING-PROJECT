@@ -2,7 +2,7 @@
 This project demonstrates how resources inside and amazon VPC securely access AWS managed services that exist outside the VPC boundary. By connecting an EC2 instance to amazon S3 using IAM credentials and the AWS CLI, it highlights the distinction between network isolation and identity based access in AWS architectures.
 
 ## Architecture 
-
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/6c5c2a9c490c19c5d68072975db8365e21f14a82/7%20Access%20S3%20from%20VPC/Architecture/Architecture%207.drawio.png)
 
 ## Implementation 
 
