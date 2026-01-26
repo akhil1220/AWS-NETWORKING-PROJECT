@@ -72,9 +72,18 @@ here aws s3 cp: is the command to copy files.
 
 s3://thalari-vpc-project is the destination path. It's saying that the file should be copied to the S3 bucket thalari-vpc-project.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/579e4276d7f52339b02faf2723504dbcdee6f283/7%20Access%20S3%20from%20VPC/Screenshots/ec2%20instance.png )
+
+## New  S3 bucket list after the file uploaded 
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/579e4276d7f52339b02faf2723504dbcdee6f283/7%20Access%20S3%20from%20VPC/Screenshots/s3%20new%20.png)
 
 
+## Key learnings:
 
+1. VPC's provide network isolation not service isolation.
+2. Access to AWS Services Is Governed by IAM, Not Network Reachability.
+3. Authentication mechanisms Shape architecture and security 
 
 
 
