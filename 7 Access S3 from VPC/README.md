@@ -36,6 +36,44 @@ I created an amazon s3 bucket in the same aws region as the VPC and uploaded two
 
 This bucket served as External AWS Managed service that the EC2 instance would attempt to access.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/a1666102c4ee93d807f46fb46124db78f23edb58/7%20Access%20S3%20from%20VPC/Screenshots/s3.png)
+
+## Step 6: Access the S3 bucket from inside the VPC
+
+From the EC2 instance i used AWS CLI to:
+
+A) List all S3 buckets in the Account.
+
+For this i used the command "aws s3 ls".
+
+B) List objects inside the target s3 bucket.
+
+For this i used the command aws s3 ls s3://Thalari-vpc-project
+
+C) Upload a new file from EC2 instance to S3 bucket.
+
+For this i used the command   "" sudo touch /tmp/test.txt ""  to create blank .txt file in EC2 instance 
+
+Here 
+
+sudo stands for "superuser do" and it's used when you're running a command that typicaly needs elevated user permissions, like installing software or creating new files.
+
+touch is a standard command used to create an empty file if it doesn't exist. If it does exist, this command will update the file's timestamp (i.e. the last time it was accessed) instead.
+
+/tmp/ is a common directory path (you can think of a directory path as layers and layers of folders) typically used for temporary files.
+
+test.txt is the name of the empty file you're creating.
+
+Next i ran the command aws s3 cp /tmp/test.txt s3://thalari-vpc-project
+
+here aws s3 cp: is the command to copy files.
+
+/tmp/test.txt is the source file path. It's saying that the file to copy is test.txt, which exists inside a folder called tmp.
+
+s3://thalari-vpc-project is the destination path. It's saying that the file should be copied to the S3 bucket thalari-vpc-project.
+
+
+
 
 
 
