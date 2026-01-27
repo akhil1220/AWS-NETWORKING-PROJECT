@@ -59,10 +59,26 @@ Navigated to vpc endpoints and created endpoints by selecting gateway end point 
 
 # Step 7: Secure the S3 Bucket with a Bucket Policy
 
-Restricted the bucket access to only traffic from the VPC endpoints 
+Restricted the bucket access to only traffic from the VPC endpoints.
+
+The below is the json code for the bucket policy i used.
+
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/674820b52cbea8fecab0796d017c03653db1418a/8%20VPC%20End%20points/screenshots/bucket%20policy.png)
+
+Result:
+
+Console access to the bucket was denied and only end point traffic allowed.
 
 
+# Step 8: Validated enpoint connectivity
 
+Initial attempt failed due to missing route configuratio so i updated route table to forward S3 traffic to the endpoint.
+
+# Step 9:  Test VPC Endpoint Policy Controls
+
+Modified endpoint policy to Deny access → S3 access blocked.
+
+Reverted policy to Allow → Access restored.
 
 
 
