@@ -81,8 +81,17 @@ Modified endpoint policy to Deny access → S3 access blocked.
 Reverted policy to Allow → Access restored.
 
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/448b690477cd3e3b004b4b4e7e96967a468769e7/8%20VPC%20End%20points/screenshots/Output.png)
 
 
+
+## Key learnings:
+
+VPC Gateway Endpoints enable private access to AWS services like Amazon S3, keeping traffic within the AWS network and eliminating exposure to the public internet.
+
+S3 bucket policies and VPC endpoint policies provide layered security, allowing precise control over which networks and resources can access S3 data.
+
+Correct route table configuration is critical for endpoint functionality, as traffic must be explicitly routed through the VPC endpoint for access to succeed.
 
 
 
