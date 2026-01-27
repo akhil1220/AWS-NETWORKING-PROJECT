@@ -8,6 +8,7 @@ The implementation Highlights AWS Networking fundamentals, secure service access
 
 ## Architecture 
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/fd56a0fec30aef2a90af9859acb51786af8bb619/8%20VPC%20End%20points/Architecture/FINAL%20architecture.drawio.png)
 
 ## Implementation
 
