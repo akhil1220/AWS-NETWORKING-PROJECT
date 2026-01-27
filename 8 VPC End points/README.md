@@ -55,6 +55,7 @@ aws s3 cp /tmp/thalari.txt s3://thalari-bucket
 
 Navigated to vpc endpoints and created endpoints by selecting gateway end point for amazon S3, attached endpoint to the VPC and associated endpoint with the public subnet route table.
 
+![image alt](https://github.com/akhil1220/AWS-NETWORKING-PROJECT/blob/c1f0376a62362fae6bb3a742c523991ce0ee8bfe/8%20VPC%20End%20points/screenshots/VPC%20End%20points%20.png)
 
 # Step 7: Secure the S3 Bucket with a Bucket Policy
 
